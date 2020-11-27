@@ -1,0 +1,197 @@
+@media (min-width: 320px) and (max-width: 767px){
+.top-bg .custom-nav li {
+    display: block;
+    padding: 10px;
+}
+.navbar{
+box-shadow: 0 10px 20px -8px rgb(54 58 60 / 31%);
+    background: #0d8ec3;
+    z-index: 10;
+}
+.navbar-brand {
+    margin: 0;
+    width: 70%;
+}
+.standard-txt {
+    font-size: 16px;
+    padding: 20px 0;
+    line-height: 1.4;
+}
+.sec-1-bg{
+	 background: none;
+    margin: 0;
+    min-height: 200px;
+}
+.div-md-block{
+display: none;
+}
+.div-sm-block{
+display: block;
+}
+.section-1 {
+    background: url(../img/sec-1-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+        padding-top: 130px;
+}
+.section-1 .txt-contanier {
+    padding: 20px;
+    border-radius: 5px;
+    background: rgb(14 113 166 / .3);
+}
+.top-bg{
+	    min-height: 680px;
+}
+.services-icons a{
+width: 135px;
+    padding: 40px;
+    height: 135px;
+        box-shadow: 0 3px 18px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgb(44 100 141 / 41%);
+}
+.services-icons img {
+    margin-top: 5px;
+}
+section {
+    padding: 25px 0;
+}
+.section-4 .col-sm-4 {
+    padding: 0 45px;
+}
+.services-icons{
+	margin-top: -170px;
+}
+.md-heading {
+    font-size: 30px !important;
+    line-height: 1.2;
+    }
+.work-content .md-heading {
+    font-size: 22px;
+    line-height: 1.2;
+}
+.work-content {
+    padding: 15px;
+    margin-top: 50px;
+    min-height: auto;
+}
+.work-content img {
+    margin-top: -30px;
+    }
+.standard-btn:after{
+	opacity: 1;
+}
+.standard-btn{
+	text-align: center;
+}
+.standard-btn:hover {
+    padding-right: 0;
+    padding-left: 0;
+}
+.section-5 img {
+    margin: 20px 0;
+}
+
+.section-5 .sec-bg {
+    background: none;
+    min-height: 0;
+    margin-left: 0;
+}
+.mission-bg {
+    background: url(../img/last-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200px;
+}
+.sec-bg {
+	background: none;
+}
+.footer-sec {
+    padding: 40px;
+}
+.footer-sec input, .footer-sec textarea{
+	margin: 6px 0;
+}
+.copy-right {
+    padding: 0 15px;
+}
+.section-3 .mt-6 {
+    margin-top: 0;
+}
+.section-3 img {
+    margin: 20px 0;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+/*ipad*/
+@media (min-width: 768px) and (max-width: 1024px){
+.top-bg .custom-nav li {
+    display: inline-block;
+    padding: 20px 5px;
+}
+a.navbar-brand {
+    width: 25%;
+}
+.section-1 {
+    padding-top: 120px;
+}
+.section-1 {
+    padding-top: 120px;
+    background: url(../img/sec-1-img.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+.sec-1-bg {
+    background: none;}
+    .services-icons .col:nth-of-type(1), .services-icons .col:nth-of-type(7) {
+    display: none;
+}
+.services-icons .col {
+    padding: 0;
+}
+.services-icons a {
+    box-shadow: 0 3px 18px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgb(44 100 141 / 41%);
+}
+section {
+    padding: 20px 0;
+}
+.section-4 .sm-txt {
+    font-size: 22px;
+}
+.md-heading {
+    font-size: 32px ;
+}
+.work-content {
+    padding: 15px;
+    margin-top: 50px;
+}
+.work-content img {
+    margin-top: -30px;
+    }
+    .standard-btn {
+    padding-right: 0;
+    padding-left: 0;
+}
+.standard-btn{
+	text-align: center;
+}
+.standard-btn:after {
+    opacity: 1;
+    right: 0;
+}
+.services-icons {
+       margin-top: -170px;
+    }
+
+}
